@@ -24,5 +24,5 @@ npm test
 * [Axios](https://github.com/axios) : Promise based HTTP client for the browser and node.js
 * [i18Next](https://github.com/i18next) : i18next is an internationalization-framework written in and for JavaScript
 * [React-router-Dom](https://reactrouter.com/en/main/start/overview) : React Router enables "client side routing"
-* [@testing/library](https://testing-library.com/docs/react-testing-library/intro) : React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components.
+* [@testing/library](https://testing-library.com/docs/react-testing-library/intro) : React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components
 * [vite] (https://github.com/vitejs/vite) : Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects
