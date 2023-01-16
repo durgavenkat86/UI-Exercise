@@ -3,7 +3,7 @@
 ### Info
 This repository contains code for product selection
 
-Run the following commands to the application.
+Run the following commands to start the application.
 ```bash
 npm install
 npm run dev
