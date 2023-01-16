@@ -1,10 +1,7 @@
-
 export interface IDropdownOption {
- id: string | number;
- name: string;
- image?: string;
+  id: string | number;
+  name: string;
+  image?: string;
 }
 
-export interface IProduct extends IDropdownOption {
-
-}
+export interface IProduct extends IDropdownOption {}

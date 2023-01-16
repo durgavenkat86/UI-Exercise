@@ -1,22 +1,22 @@
 [
- {
-  "id": "slack",
-  "name": "Slack"
- },
- {
-  "id": "evernote",
-  "name": "Evernote"
- },
- {
-  "id": "jira",
-  "name": "Jira"
- },
- {
-  "id": "notion",
-  "name": "Notion"
- },
- {
-  "id": "zoom",
-  "name": "Zoom"
- }
+  {
+    "id": "slack",
+    "name": "Slack"
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote"
+  },
+  {
+    "id": "jira",
+    "name": "Jira"
+  },
+  {
+    "id": "notion",
+    "name": "Notion"
+  },
+  {
+    "id": "zoom",
+    "name": "Zoom"
+  }
 ]
