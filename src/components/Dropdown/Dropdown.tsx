@@ -100,7 +100,7 @@ const Dropdown: React.FC<DropdownProps> = (props: DropdownProps) => {
             />
           )}
           <Combobox.Input
-            className="w-full py-2 pl-3 pr-10 text-sm leading-5 text-gray-700 bg-slate-200      focus:outline-1 focus:outline-blue-600 rounded-md"
+            className="w-full py-2 pl-3 pr-10 text-sm leading-5 text-gray-700 bg-slate-200 focus:outline-1 focus:outline-blue-600 rounded-md"
             displayValue={(item: IDropdownOption) => item.name}
             placeholder={t("SEARCH_FOR_ANY_SOFTWARE")}
             autoComplete="off"
