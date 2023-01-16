@@ -111,7 +111,7 @@ const ProductSelection: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-wrap h-auto justify-center items-center gap-20">
+    <div className="flex flex-wrap h-auto justify-center items-center gap-48">
       {renderSelectedProducts()}
       {renderAddProductsMenu()}
     </div>
