@@ -61,7 +61,7 @@ const ProductSelection: React.FC = () => {
   const renderAddProductsMenu = (): JSX.Element => {
     return (
       <div className="w-96 p-5">
-        <a className="p-1.5 bg-purple-400	text-white rounded-md text-xs no-underline hover:text-white">
+        <a className="p-1.5 bg-purple-400 text-white rounded-md text-xs no-underline hover:text-white">
           1 of 3
         </a>
         <h1 className="my-6">{t("LETS_ADD_YOUR_INTERNAL_TOOLS")}</h1>
