@@ -46,9 +46,9 @@ const Dropdown: React.FC<DropdownProps> = (props: DropdownProps) => {
           .includes(searchText.toLowerCase().replace(EMPTY_SPACE_REGEX, ""))
       );
 
-  const handleOnSelect = (product: IDropdownOption): void => {
-    setSelectedOption(product);
-    onSelect(product);
+  const handleOnSelect = (option: IDropdownOption): void => {
+    setSelectedOption(option);
+    onSelect(option);
   };
 
   const renderNoMatchFound = (): JSX.Element => {
