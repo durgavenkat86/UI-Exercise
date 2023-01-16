@@ -1,0 +1,15 @@
+{
+ "COMMON": {
+  "REMOVE": "Remove",
+  "NOTHING_FOUND": "Nothing found",
+  "PAGE_NOT_FOUND": "404 Page Not Found"
+ },
+ "LETS_ADD_YOUR_INTERNAL_TOOLS": "Let's add your internal tools",
+ "SEARCH_AND_ADD_PRODUCTS_FOR_YOUR_TEAM": "Search to quickly add product your team uses today. You'll be able to add as many as you need later but for now let's add four.",
+ "PRODUCTS_ADDED_COUNT": "{{count}} product added",
+ "PRODUCTS_ADDED_COUNT_PLURAL": "{{count}} products added",
+ "SEARCH_FOR_ANY_SOFTWARE": "    Search for any software...",
+ "EXIT_STEP":"Exit setup",
+ "AXIAMATIC": "axiamatic",
+ "ONLY_4_PRODUCTS_ALLOWED": "Only 4 products allowed"
+}
