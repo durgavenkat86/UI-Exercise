@@ -100,13 +100,13 @@ const Dropdown: React.FC<DropdownProps> = (props: DropdownProps) => {
             />
           )}
           <Combobox.Input
-            className="w-full py-2 pl-3 pr-10 text-sm leading-5 text-gray-700 bg-slate-200 focus:outline-1 focus:outline-blue-600 rounded-md"
+            className="w-full py-2 pl-3 pr-10 text-sm leading-5 text-gray-700 bg-slate-200 rounded-md"
             displayValue={(item: IDropdownOption) => item.name}
             placeholder={t("SEARCH_FOR_ANY_SOFTWARE")}
             autoComplete="off"
             onChange={(event) => setSearchText(event.target.value)}
           ></Combobox.Input>
-          <Combobox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white p-2 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+          <Combobox.Options className="absolute mt-2 max-h-60 w-full border rounded-md bg-white p-2 shadow-lg">
             {filteredDropdownOptions.length === 0
               ? renderNoMatchFound()
               : renderFilteredMenu()}

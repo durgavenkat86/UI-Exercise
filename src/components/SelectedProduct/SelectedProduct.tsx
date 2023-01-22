@@ -17,16 +17,14 @@ const SelectedProduct: React.FC<SelectedProductProps> = (
   const { product, onRemove } = props;
   const { t } = useTranslation();
   return (
-    <div className="w-48 h-48 border rounded-md shadow-sm text-center p-6">
+    <div className="card text-center p-6">
       <img src={IMAGE_MAP[product.id]} className="w-16 h-16 m-auto" />
-      <p className="text-sm font-bold mt-4 mb-10">{product.name}</p>
-      <span
-        className="flex justify-center text-xs font-bold text-gray-400 cursor-pointer"
-        onClick={() => onRemove(product)}
-      >
-        <span className="mr-1 text-red-500">{icon.close}</span>
-        <span>{t("COMMON.REMOVE")}</span>
-      </span>
+      <h5 className="mt-4 mb-9">{product.name}</h5>
+      <div className="flex justify-center items-baseline cursor-pointer"
+           onClick={() => onRemove(product)}>
+          <span className="mr-1 text-sm text-red-500">{icon.close}</span>
+          <h6 className="text-gray-400">{t("COMMON.REMOVE")}</h6>
+      </div>
     </div>
   );
 };

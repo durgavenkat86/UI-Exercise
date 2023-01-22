@@ -10,7 +10,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<ProductSelection />}></Route>
-        <Route path="/404" element={<Page404 />}></Route>
         <Route path="*" element={<Page404 />}></Route>
       </Routes>
     </BrowserRouter>
